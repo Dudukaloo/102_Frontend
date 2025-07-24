@@ -4,31 +4,12 @@
     box-sizing: border-box;
     padding:0%
 }
-h1{
-    color:green
-}
 
-h2{
-    color:blue
-}
-q 
-h3{
-    color:red
-}
-
-#economia{
-    background-color:brown;
-}
-
-#esporte{
-    background-color: gray;
-}
-
-.creation-date{
-    color:lightgrey
+header li{
+    display: inline;
 }
 
 .container{
-    width: 1366px;
-    margin: 0 auto 0 auto;
+    width: 1264px;
+    margin: 0, auto, 0, auto;
 }
