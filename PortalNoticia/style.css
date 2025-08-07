@@ -1,8 +1,16 @@
 *{
-    color: rgb(111, 220, 22);
+    color: rgb(0, 0, 0);
     margin:0%;
     box-sizing: border-box;
     padding:0%
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: aqua;
 }
 
 header li{
@@ -12,4 +20,22 @@ header li{
 .container{
     width: 1264px;
     margin: 0, auto, 0, auto;
+}
+
+.creation-date{
+    color: mediumblue;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 160px ;
+}
+
+.articles article {
+    width: 30%;
 }
