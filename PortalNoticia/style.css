@@ -72,7 +72,7 @@ section h2,
 }
 
 .articles article a{
-    background-color: blueviolet;
+    background-color: rgb(44, 44, 1600);
     color:cornflowerblue;
     padding: 8px;
     display: inline-block;
@@ -82,4 +82,20 @@ section h2,
 .articles article a:hover{
     text-decoration: underline;
     background-color: blue;
+}
+
+#esporte{
+    background-color: rgba(0, 255, 0, 80);
+}
+
+#esporte .articles article a{
+    background-color: #009432;
+}
+
+#economia{
+    background-color: #f8f59f;
+}
+
+#economia .articles article a{
+    background-color: #fff91a;
 }
