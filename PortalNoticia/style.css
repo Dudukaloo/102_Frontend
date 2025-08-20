@@ -6,17 +6,17 @@
 }
 
 h1 {
-    color: blue;
+    color:#000;
 }
 
 h2 {
-    color: aqua;
+    color: #000;
 }
 
 body > header{
-    background-color: lightskyblue;
+    background-color: rgb(26, 106, 255);
     padding: 16px 8;
-    color: #fff;
+    color:#000;
 }
 
 header li{
@@ -24,7 +24,7 @@ header li{
 }
 
 header li a{
-    color: #fff;
+    color:#000;
 }
 
 header .container{
@@ -40,7 +40,7 @@ header .container{
 }
 
 .creation-date{
-    color: mediumblue;
+    color: #000;
 }
 
 .articles{
@@ -72,7 +72,7 @@ section h2,
 }
 
 .articles article a{
-    background-color: rgb(44, 44, 1600);
+    background-color: cornflowerblue;
     color:cornflowerblue;
     padding: 8px;
     display: inline-block;
@@ -81,21 +81,37 @@ section h2,
 
 .articles article a:hover{
     text-decoration: underline;
-    background-color: blue;
+    background-color: cornflowerblue;
 }
 
 #esporte{
-    background-color: rgba(0, 255, 0, 80);
+    background-color: rgb(26, 106, 255);
 }
 
 #esporte .articles article a{
-    background-color: #009432;
+    background-color: rgb(26, 106, 255);
 }
 
 #economia{
-    background-color: #f8f59f;
+    background-color:rgb(35, 224, 35);
 }
 
 #economia .articles article a{
-    background-color: #fff91a;
+    background-color: rgb(35, 224, 35);
+}
+
+#entreterimento{
+    background-color:rgb(239, 239, 26);
+}
+
+#entreterimento .articles article a{
+    background-color: rgb(239, 239, 26);
+}
+
+#tecnologia{
+    background-color: rgb(248, 43, 43);
+}
+
+#tecnologia .articles article a{
+    background-color: rgb(248, 43, 43);
 }
