@@ -13,7 +13,7 @@ h2 {
     color: #000;
 }
 
-body > header{
+body > header, h1{
     background-color: rgb(26, 106, 255);
     padding: 16px 8;
     color:#000;
@@ -50,7 +50,7 @@ header .container{
 }
 
 .articles article img{
-    height: 160px ;
+    height: 180px ;
 }
 
 .articles article {
@@ -72,8 +72,8 @@ section h2,
 }
 
 .articles article a{
-    background-color: cornflowerblue;
-    color:cornflowerblue;
+    background-color: #000;
+    color:white;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
