@@ -32,3 +32,26 @@ header .container{
     width: 100%;
     margin: 0 auto;
 }
+
+.brand-list img{
+    height: 24px;
+    display: inline;
+    align-items: flex-start;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+    color: #182C61;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
