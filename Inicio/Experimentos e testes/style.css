@@ -1,9 +1,30 @@
 .cabeca img{
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
+    object-fit: cover;
+}
+
+.cabeca h1{
+    margin-left: 20px;
 }
 
 .cabeca{
     display: flex;
     align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+#perifericos{
+    margin-left: 5px;
+}
+
+.mouses img{
+    width: 150px;
 }
