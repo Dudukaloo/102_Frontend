@@ -21,20 +21,17 @@ header{
     align-items: center;
 }
 
-#perifericos .mouses .preco{
+#perifericos{
     margin-left: 5px;
-    display:flex;
-    align-content: space-between;
 }
 
 .mouses img{
     width: 150px;
 }
 
-.mouses .preco{
-    display:block;
-    align-items: center;
-}
-.mouses .preco h2{
-    margin-left: 25px
+.mouses{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
 }
