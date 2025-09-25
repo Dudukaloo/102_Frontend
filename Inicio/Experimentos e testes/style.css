@@ -53,3 +53,7 @@ header{
 #jogo img{
     border-radius: 3%;
 }
+
+#teclado img{
+    height: 50px;
+}
