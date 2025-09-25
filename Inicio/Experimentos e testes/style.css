@@ -25,13 +25,31 @@ header{
     margin-left: 5px;
 }
 
-.mouses img{
+.mouse img{
     width: 150px;
 }
 
-.mouses{
+.mouse{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-align: center;
+}
+
+.game{
+    margin-left: 5px;
+}
+
+.game img{
+    width: 200px;
+}
+
+#jogo{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#jogo img{
+    border-radius: 3%;
 }
