@@ -5,6 +5,16 @@
     object-fit: cover;
 }
 
+nav ul {
+    display: inline-flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
 .cabeca h1{
     margin-left: 20px;
 }
@@ -55,5 +65,15 @@ header{
 }
 
 #teclado img{
-    height: 50px;
+    width: 550px;
+}
+
+#teclado{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tecladocabo{
+    margin-top: -74px;
 }
