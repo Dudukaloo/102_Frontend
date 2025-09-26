@@ -46,11 +46,11 @@ header{
     text-align: center;
 }
 
-.game{
+#game{
     margin-left: 5px;
 }
 
-.game img{
+#game img{
     width: 200px;
 }
 
