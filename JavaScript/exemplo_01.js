@@ -18,7 +18,6 @@ for (let i = 0; i <= 10; i++){
     console.log ("A tabuada é", n1, "x", i, "=", tabu);
 } */
 
-
 /* let i = 10;
 while (i >= 0){
     console.log (i--);
