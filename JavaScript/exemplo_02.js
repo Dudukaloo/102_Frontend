@@ -1,4 +1,4 @@
-/* //Declarar e inicializar a estrutura
+//Declarar e inicializar a estrutura
 let numeros = [1, 2, 3]
 //Mostrar e adicionar no fim
 console.log (numeros);
@@ -11,9 +11,17 @@ console.log (numeros);
 numeros.unshift (-3);
 console.log (numeros);
 //Imprimir um item específico
-console.log ("Mostrando: "+ numeros[3]); */
+console.log ("Mostrando: "+ numeros[3]);
 
 //===============================================================================================
+
+//Como inserir um valor  rm ums podição específica do array
+numeros.splice(2, 0, 17);
+console.log(numeros);
+
+numeros.splice(0, 2);
+console.log(numeros);
+
 // Array de marca de carros
 
 let garage = ["BYD", "Tesla", "Dodge", "Audi", "Lamborghini", "Jaguar", "Subaru", "Pagani", "Mazda"];
@@ -28,7 +36,7 @@ console.log ("Tamanho do Array: "+garage.length);
 
 for (let i = 0; i < garage.length; i++) {
     console.log ("Carro nº %d:", i+1);
-    console.log ("Marca %a", garage[i])
+    console.log ("Marca nº", garage[i])
 }
 
 for (carro in garage){

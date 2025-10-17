@@ -1,0 +1,16 @@
+let frutas = ["Melão", "Morango", "Melancia", "Abacaxi", "Banana"];
+console.log(frutas);
+frutas.unshift("Manga");
+console.log(frutas);
+frutas.unshift("Kiwi");
+console.log(frutas);
+frutas.pop();
+console.log(frutas);
+frutas.splice(0, 0, "Bergamota");
+console.log(frutas);
+frutas.splice(2, 0, "Laranja");
+console.log(frutas);
+frutas.splice(3, 0, "Abacate");
+console.log(frutas);
+frutas.splice(1, 1);
+console.log(frutas);
