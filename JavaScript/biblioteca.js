@@ -54,3 +54,9 @@ let livro7 = {
 livros.push(livro7);
 
 console.log(livros);
+
+for (let livro of livros){
+    if("HQ" == livro.genero){
+        console.log(`----------- \nGênero encontrado: \n${livro.genero}\nTítulo: \n${livro.titulo}`);
+    };
+};
