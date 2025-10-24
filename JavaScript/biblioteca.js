@@ -60,3 +60,5 @@ for (let livro of livros){
         console.log(`----------- \nGênero encontrado: \n${livro.genero}\nTítulo: \n${livro.titulo}`);
     };
 };
+
+//Falta --> Encontra o livro mais antigo: Mostre o livro com o menor valor no campo ano.
